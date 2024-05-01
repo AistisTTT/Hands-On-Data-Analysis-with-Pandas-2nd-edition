@@ -57,6 +57,7 @@ def run_checks(raise_exc=False):
 
             requirements[pkg.replace('-', '_')] = version
 
+
     # check the requirements
     for pkg, req_version in requirements.items():
         try:
